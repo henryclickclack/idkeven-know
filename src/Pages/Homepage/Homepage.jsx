@@ -2,7 +2,7 @@ import React, {useState, useEffect,useRef} from 'react';
 import './Homepage.css';
 import NET from 'vanta/dist/vanta.net.min';
 // import THREE from 'vanta/vendor/three.r119.min.js';
-import * as THREE from 'three'
+import * as THREE from 'vanta/vendor/three.r119.min'
 
 
 export default function Home() {
