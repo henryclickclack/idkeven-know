@@ -1,0 +1,94 @@
+.Page {
+  padding-top: 8%;
+}
+.ConTitle {
+  -webkit-tap-highlight-color: transparent;
+  cursor: pointer;
+  box-sizing: inherit;
+  -webkit-font-smoothing: antialiased;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 600;
+  font-size: 60px;
+  display: block;
+  margin-bottom: 1em;
+  text-align: center;
+  color: #f07178;
+}
+.ContactCard {
+  width: 86%;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  background-color: rgba(67, 71, 88, 1);
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+  box-sizing: border-box;
+  color: #f07178;
+  cursor: pointer;
+  text-decoration: none;
+  display: block;
+  transition: all 0.4s ease-in-out;
+  padding: 3em 3em 4em;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 0px solid #ccc; /* Gray border */
+  border-bottom: 1px solid #ccc;
+  color: #ccc;
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+  background-color: transparent;
+  outline: none;
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #4CAF50;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  padding: 20px;
+  padding-top: 0px!important;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #ccc;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #ccc;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #ccc;
+}
+/* Change the white to any color */
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active
+{
+ -webkit-box-shadow: 0 0 0 30px #4CAF50 inset !important;
+  border: 0px solid #4CAF50;
+}

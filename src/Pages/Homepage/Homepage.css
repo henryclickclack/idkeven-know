@@ -1,0 +1,204 @@
+
+#Greeting {
+  font-size: 2.7rem;
+}
+
+#GreetingCompound {
+  display: flex;
+  justify-content: space-evenly;
+  height: 95vh;
+  
+}
+
+#GreetingText {
+  margin: 0px;
+}
+
+#GreetingSubText {
+  font-size: 34px;
+}
+
+#GreetingPicDiv {
+  width:50vw;
+  height:700px;
+  display: flex;
+
+}
+
+#GreetingPic {
+  border: 3px solid #f07178;
+  border-radius: 10px;
+  filter: drop-shadow(0px 52px 74px rgba(0, 21, 64, 0.138559));
+}
+
+.ContentCard {
+  height: 80vh!important;
+  width: 80%;
+  margin-top: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  background-color: rgb(100, 100, 100);
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+  box-sizing: border-box;
+  color: #f07178;
+  cursor: pointer;
+  text-decoration: none;
+  display: block;
+  transition: all 0.4s ease-in-out;
+  padding: 3em 3em 4em;
+}
+
+
+.LastCard {
+  margin-bottom: 100px;
+}
+
+.CCategory {
+  -webkit-tap-highlight-color: transparent;
+  cursor: pointer;
+  -webkit-font-smoothing: antialiased;
+  display: block;
+  font-size: 18px;
+  opacity: 0.6;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-weight: bold;
+  text-align: right;
+  color: #d0d0d0;
+  text-decoration: none;
+}
+
+.CTitle {
+  -webkit-tap-highlight-color: transparent;
+  cursor: pointer;
+  box-sizing: inherit;
+  -webkit-font-smoothing: antialiased;
+  margin-top: 0;
+  font-weight: 600;
+  font-size: 60px;
+  display: block;
+  margin-bottom: 1em;
+  text-align: right;
+  color: #f07178;
+}
+.CPicDiv{
+  text-align: center;
+  transition: width 2s linear 1s;
+  margin-bottom: 60px;
+}
+.Cpic{
+  
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  /* border: 2px solid #292d3e; */
+  
+  
+  -webkit-font-smoothing: antialiased;
+  border-style: none;
+  vertical-align: middle;
+  filter: drop-shadow(0px 52px 74px rgba(1, 12, 34, 0.139));
+
+
+}
+.Cpic1{
+  
+  border-radius: 10px;
+position: absolute;
+right:30%
+
+}
+
+.row{
+  position: relative;
+  top: 28.5%;
+  float:left;
+  padding-right: 160px;
+  width: 50px;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-around;
+  height: 300px;
+
+}
+
+.circle {
+  transition: all 1s ease-in-out!important;
+  border-radius: 50%;
+  background-color: #f07178;
+  width:50px;
+  display: block;
+  height:50px;
+  animation-name: scale-up-blob ;
+  transition: all 1s ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+}
+.row1{
+  top: 14.3%;
+  height:500px!important
+}
+.row2{
+  top: 0%;
+  height:700px!important
+}
+.row3{
+  padding-right: 0px;
+}
+
+.ContentCard:hover{
+	-webkit-animation: scale-up-center 0.4s ease-in-out ;
+          animation: scale-up-center 0.4s ease-in-out ;
+          -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+}
+@-webkit-keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+}
+@keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+}
+@-webkit-keyframes scale-up-blob {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+@keyframes scale-up-blob {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
