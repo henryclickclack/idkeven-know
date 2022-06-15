@@ -35,10 +35,11 @@
     left:7%;
     top:5.2vh;
     font-size: 1.1rem;
-    background-color:#000000;
+    background-color:transparent;
     padding:20px;
     border: 2px solid #f07178;
     border-radius: 20px;
+    z-index: -1
   }
 .Dropdownitem{
     cursor: pointer;
@@ -85,7 +86,7 @@
 }
 .Navbar{
     height: 7vh;
-    background: #000000;
+    background: transparent;
     position: fixed;
     width: 100%;
     display: flex;

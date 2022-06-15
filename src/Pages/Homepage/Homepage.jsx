@@ -23,13 +23,13 @@ export default function Home() {
           gyroControls: false,
           minHeight: 120.00,
           minWidth: 200.00,
-          scale: 0.8,
+          scale:1.2,
           scaleMobile: 1.00,
           color: 0x8c0000,
           backgroundColor: 0x0,
           points: 20.00,
-          maxDistance: 21.00,
-          spacing: 20.00
+          maxDistance: 31.00,
+          spacing: 30.00
         }))
       }
       return () => {
@@ -38,56 +38,22 @@ export default function Home() {
     }, [vantaEffect])
     return (
 
-    <div className="Page"   >
+    <div className="Page home"   >
 
-        <div id="GreetingCompound" ref={zero} >
+        <div id="GreetingCompound"  ref={zero}>
           <div id="Greeting">
             <h1 id="GreetingText">
-              Hi,<br/>
-              I'm <span style={{color:"#f07178"}}>Henry</span><br/>
-              and I do <br/>
-              all sorts <br/>
-              of things.
+            <br/>
+            <br/>
+            <br/>
+              We are <br/>
+              <span style={{color:"#f07178"}}>Flowsense</span><br/>
             </h1>
             <span id="GreetingSubText">
-              Studying Data Science.<br/>
-              Mostly interested in Design, Math and Machine Learning.
+              Making sense of your data with<br/>
+              State of the Art <span style={{color:"#f07178"}}>Artificial Intellence</span> and <span style={{color:"#f07178"}}>Data Science</span>.
             </span>
           </div>
-          {/* <div id="GreetingPicDiv">
-           <div id ="anim">
-           <div class = "row row0">
-            <div id ="origin" class ="circle"></div>
-            <div id ="origin" class ="circle"></div>
-            <div id ="origin" class ="circle"></div>
-            </div>
-            <div class = "row row1">
-            <div id ="origin" class ="circle"></div>
-            <div id ="origin" class ="circle"></div>
-            <div id ="origin" class ="circle"></div>
-            <div id ="origin" class ="circle"></div>
-
-            </div>
-            <div class = "row row2">
-            <div id ="origin" class ="circle"></div>
-            <div id ="origin" class ="circle"></div>
-            <div id ="origin" class ="circle"></div>
-            <div id ="origin" class ="circle"></div>
-            <div id ="origin" class ="circle"></div>
-
-
-            </div>
-            <div class = "row ">
-            <div id ="origin" class ="circle"></div>
-            <div id ="origin" class ="circle"></div>
-            <div id ="origin" class ="circle"></div>
-            </div>
-
-            <div class = "row row3">
-            <div id ="origin" class ="circle"></div>
-            </div>
-           </div>
-          </div> */}
         </div>
 
         <div className="ContentCard hvr-grow-shadow" ref={first}>
